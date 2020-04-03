@@ -7,7 +7,7 @@ from pymessenger import Bot
 
 app=Flask(__name__)
 
-PAGE_ACCESS_TOKEN= "EAAhdiArH2F8BAGcsyOieRhuH8gYfNzuArIuLWZBPtlfRgBZAZAjcCQ1D6vqL5ml39XX8i207iJ7vZBM3RWXqtlsSHxxcEQfTBq8DjxjMGNWpUWZA2KLhxY8W7Q5GR207ZCi02NVSalNS1bwBi3yqQoCnmCZCoKfdu50Lw11cOBoN50505d9ovPj" #confidential
+PAGE_ACCESS_TOKEN= "SomeConfindetialAccessToken" #confidential
 bot=Bot(PAGE_ACCESS_TOKEN)
 
 @app.route('/',methods=['GET'])
